@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Buttery",
+        "repositoryURL": "https://github.com/jonnyholland/Buttery.git",
+        "state": {
+          "branch": null,
+          "revision": "768353b962e9f3e82e8a6fbb35fee5bb14cad6c5",
+          "version": "1.0.2"
+        }
+      },
+      {
+        "package": "Preferences",
+        "repositoryURL": "https://github.com/sindresorhus/Preferences",
+        "state": {
+          "branch": null,
+          "revision": "b084fbf4fdf64b5846c72236d3a8197f312e6211",
+          "version": "2.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

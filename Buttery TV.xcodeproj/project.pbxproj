@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E7AF06226C6E70900B6EE44 /* Help.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AF06026C6E70900B6EE44 /* Help.xcdatamodeld */; };
+		1E916D8026C6B3CC00FD948D /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E916D7F26C6B3CC00FD948D /* AVKit.framework */; };
+		1EC0745426C5761C0084EFCE /* Buttery_TVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC0745326C5761C0084EFCE /* Buttery_TVApp.swift */; };
+		1EC0745626C5761C0084EFCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC0745526C5761C0084EFCE /* ContentView.swift */; };
+		1EC0745826C5761D0084EFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC0745726C5761D0084EFCE /* Assets.xcassets */; };
+		1EC0745B26C5761D0084EFCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC0745A26C5761D0084EFCE /* Preview Assets.xcassets */; };
+		1EC0745D26C5761D0084EFCE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC0745C26C5761D0084EFCE /* Persistence.swift */; };
+		1EC0746026C5761D0084EFCE /* Buttery_TV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EC0745E26C5761D0084EFCE /* Buttery_TV.xcdatamodeld */; };
+		1EC20CF426C5B7140032C3EE /* Buttery in Frameworks */ = {isa = PBXBuildFile; productRef = 1EC20CF326C5B7140032C3EE /* Buttery */; };
+		1EC20CF726C5B7460032C3EE /* Preferences in Frameworks */ = {isa = PBXBuildFile; productRef = 1EC20CF626C5B7460032C3EE /* Preferences */; };
+		1EC20CFB26C5B78B0032C3EE /* AVFile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20CF926C5B78B0032C3EE /* AVFile+CoreDataClass.swift */; };
+		1EC20CFC26C5B78B0032C3EE /* AVFile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20CFA26C5B78B0032C3EE /* AVFile+CoreDataProperties.swift */; };
+		1EC20D0426C5B9E20032C3EE /* FileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20CFD26C5B9E20032C3EE /* FileCell.swift */; };
+		1EC20D0526C5B9E20032C3EE /* FileListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20CFE26C5B9E20032C3EE /* FileListCell.swift */; };
+		1EC20D0626C5B9E20032C3EE /* EditFileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20CFF26C5B9E20032C3EE /* EditFileCell.swift */; };
+		1EC20D0726C5B9E20032C3EE /* FileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D0026C5B9E20032C3EE /* FileView.swift */; };
+		1EC20D0826C5B9E20032C3EE /* EditFilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D0126C5B9E20032C3EE /* EditFilesView.swift */; };
+		1EC20D0926C5B9E20032C3EE /* FileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D0226C5B9E20032C3EE /* FileListView.swift */; };
+		1EC20D0A26C5B9E20032C3EE /* FileGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D0326C5B9E20032C3EE /* FileGridCell.swift */; };
+		1EC20D1726C5B9FB0032C3EE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D0D26C5B9FB0032C3EE /* Constants.swift */; };
+		1EC20D1826C5B9FB0032C3EE /* MediaDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D0E26C5B9FB0032C3EE /* MediaDropDelegate.swift */; };
+		1EC20D1926C5B9FB0032C3EE /* AVPlayer+Publishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D0F26C5B9FB0032C3EE /* AVPlayer+Publishers.swift */; };
+		1EC20D1A26C5B9FB0032C3EE /* Preferences+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D1126C5B9FB0032C3EE /* Preferences+Extensions.swift */; };
+		1EC20D1B26C5B9FB0032C3EE /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D1226C5B9FB0032C3EE /* Array+Extension.swift */; };
+		1EC20D1C26C5B9FB0032C3EE /* FileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D1426C5B9FB0032C3EE /* FileViewModel.swift */; };
+		1EC20D1D26C5B9FB0032C3EE /* MasterFileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D1526C5B9FB0032C3EE /* MasterFileController.swift */; };
+		1EC20D1E26C5B9FB0032C3EE /* ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D1626C5B9FB0032C3EE /* ViewLayout.swift */; };
+		1EC20D2226C5BA070032C3EE /* SharingPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D1F26C5BA070032C3EE /* SharingPreferences.swift */; };
+		1EC20D2326C5BA070032C3EE /* DataPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D2026C5BA070032C3EE /* DataPreferences.swift */; };
+		1EC20D2426C5BA070032C3EE /* LayoutPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D2126C5BA070032C3EE /* LayoutPreferences.swift */; };
+		1EC20D2726C5BA0E0032C3EE /* SharingControlsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D2526C5BA0E0032C3EE /* SharingControlsBar.swift */; };
+		1EC20D2826C5BA0E0032C3EE /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D2626C5BA0E0032C3EE /* ShareView.swift */; };
+		1EC20D2D26C5BA150032C3EE /* MasterControlsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D2A26C5BA150032C3EE /* MasterControlsBar.swift */; };
+		1EC20D2E26C5BA150032C3EE /* TV View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D2B26C5BA150032C3EE /* TV View.swift */; };
+		1EC20D2F26C5BA150032C3EE /* InfoPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D2C26C5BA150032C3EE /* InfoPanel.swift */; };
+		1EC20D3126C5BA690032C3EE /* VideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D3026C5BA690032C3EE /* VideoFile.swift */; };
+		1EC20D3326C5BAB20032C3EE /* Wnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC20D3226C5BAB20032C3EE /* Wnd.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E7AF06126C6E70900B6EE44 /* Help.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Help.xcdatamodel; sourceTree = "<group>"; };
+		1E916D7F26C6B3CC00FD948D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		1EC0745026C5761C0084EFCE /* Buttery TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buttery TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC0745326C5761C0084EFCE /* Buttery_TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttery_TVApp.swift; sourceTree = "<group>"; };
+		1EC0745526C5761C0084EFCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1EC0745726C5761D0084EFCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EC0745A26C5761D0084EFCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EC0745C26C5761D0084EFCE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1EC0745F26C5761D0084EFCE /* Buttery_TV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Buttery_TV.xcdatamodel; sourceTree = "<group>"; };
+		1EC0746126C5761D0084EFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC0746226C5761D0084EFCE /* Buttery_TV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Buttery_TV.entitlements; sourceTree = "<group>"; };
+		1EC20CF926C5B78B0032C3EE /* AVFile+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVFile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1EC20CFA26C5B78B0032C3EE /* AVFile+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVFile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EC20CFD26C5B9E20032C3EE /* FileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileCell.swift; sourceTree = "<group>"; };
+		1EC20CFE26C5B9E20032C3EE /* FileListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileListCell.swift; sourceTree = "<group>"; };
+		1EC20CFF26C5B9E20032C3EE /* EditFileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditFileCell.swift; sourceTree = "<group>"; };
+		1EC20D0026C5B9E20032C3EE /* FileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileView.swift; sourceTree = "<group>"; };
+		1EC20D0126C5B9E20032C3EE /* EditFilesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditFilesView.swift; sourceTree = "<group>"; };
+		1EC20D0226C5B9E20032C3EE /* FileListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileListView.swift; sourceTree = "<group>"; };
+		1EC20D0326C5B9E20032C3EE /* FileGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileGridCell.swift; sourceTree = "<group>"; };
+		1EC20D0D26C5B9FB0032C3EE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1EC20D0E26C5B9FB0032C3EE /* MediaDropDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaDropDelegate.swift; sourceTree = "<group>"; };
+		1EC20D0F26C5B9FB0032C3EE /* AVPlayer+Publishers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Publishers.swift"; sourceTree = "<group>"; };
+		1EC20D1126C5B9FB0032C3EE /* Preferences+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Preferences+Extensions.swift"; sourceTree = "<group>"; };
+		1EC20D1226C5B9FB0032C3EE /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		1EC20D1426C5B9FB0032C3EE /* FileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileViewModel.swift; sourceTree = "<group>"; };
+		1EC20D1526C5B9FB0032C3EE /* MasterFileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterFileController.swift; sourceTree = "<group>"; };
+		1EC20D1626C5B9FB0032C3EE /* ViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLayout.swift; sourceTree = "<group>"; };
+		1EC20D1F26C5BA070032C3EE /* SharingPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingPreferences.swift; sourceTree = "<group>"; };
+		1EC20D2026C5BA070032C3EE /* DataPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPreferences.swift; sourceTree = "<group>"; };
+		1EC20D2126C5BA070032C3EE /* LayoutPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutPreferences.swift; sourceTree = "<group>"; };
+		1EC20D2526C5BA0E0032C3EE /* SharingControlsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingControlsBar.swift; sourceTree = "<group>"; };
+		1EC20D2626C5BA0E0032C3EE /* ShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		1EC20D2A26C5BA150032C3EE /* MasterControlsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterControlsBar.swift; sourceTree = "<group>"; };
+		1EC20D2B26C5BA150032C3EE /* TV View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TV View.swift"; sourceTree = "<group>"; };
+		1EC20D2C26C5BA150032C3EE /* InfoPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPanel.swift; sourceTree = "<group>"; };
+		1EC20D3026C5BA690032C3EE /* VideoFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFile.swift; sourceTree = "<group>"; };
+		1EC20D3226C5BAB20032C3EE /* Wnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wnd.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EC0744D26C5761C0084EFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC20CF426C5B7140032C3EE /* Buttery in Frameworks */,
+				1EC20CF726C5B7460032C3EE /* Preferences in Frameworks */,
+				1E916D8026C6B3CC00FD948D /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E916D7E26C6B3CC00FD948D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E916D7F26C6B3CC00FD948D /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EC0744726C5761C0084EFCE = {
+			isa = PBXGroup;
+			children = (
+				1EC0745226C5761C0084EFCE /* Buttery TV */,
+				1EC0745126C5761C0084EFCE /* Products */,
+				1E916D7E26C6B3CC00FD948D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EC0745126C5761C0084EFCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EC0745026C5761C0084EFCE /* Buttery TV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EC0745226C5761C0084EFCE /* Buttery TV */ = {
+			isa = PBXGroup;
+			children = (
+				1EC0745326C5761C0084EFCE /* Buttery_TVApp.swift */,
+				1EC20D0C26C5B9FB0032C3EE /* Supporting Files */,
+				1EC20D0B26C5B9ED0032C3EE /* Views */,
+				1EC0745726C5761D0084EFCE /* Assets.xcassets */,
+				1EC20CF826C5B7710032C3EE /* Model */,
+				1EC0746126C5761D0084EFCE /* Info.plist */,
+				1EC0746226C5761D0084EFCE /* Buttery_TV.entitlements */,
+				1EC0745926C5761D0084EFCE /* Preview Content */,
+			);
+			path = "Buttery TV";
+			sourceTree = "<group>";
+		};
+		1EC0745926C5761D0084EFCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1EC0745A26C5761D0084EFCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EC20CF826C5B7710032C3EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EC20CF926C5B78B0032C3EE /* AVFile+CoreDataClass.swift */,
+				1EC20CFA26C5B78B0032C3EE /* AVFile+CoreDataProperties.swift */,
+				1EC0745E26C5761D0084EFCE /* Buttery_TV.xcdatamodeld */,
+				1EC0745C26C5761D0084EFCE /* Persistence.swift */,
+				1E7AF06026C6E70900B6EE44 /* Help.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EC20D0B26C5B9ED0032C3EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1EC0745526C5761C0084EFCE /* ContentView.swift */,
+				1EC20D2026C5BA070032C3EE /* DataPreferences.swift */,
+				1EC20CFF26C5B9E20032C3EE /* EditFileCell.swift */,
+				1EC20D0126C5B9E20032C3EE /* EditFilesView.swift */,
+				1EC20CFD26C5B9E20032C3EE /* FileCell.swift */,
+				1EC20D0326C5B9E20032C3EE /* FileGridCell.swift */,
+				1EC20CFE26C5B9E20032C3EE /* FileListCell.swift */,
+				1EC20D0226C5B9E20032C3EE /* FileListView.swift */,
+				1EC20D0026C5B9E20032C3EE /* FileView.swift */,
+				1EC20D2126C5BA070032C3EE /* LayoutPreferences.swift */,
+				1EC20D2626C5BA0E0032C3EE /* ShareView.swift */,
+				1EC20D2526C5BA0E0032C3EE /* SharingControlsBar.swift */,
+				1EC20D1F26C5BA070032C3EE /* SharingPreferences.swift */,
+				1EC20D2926C5BA150032C3EE /* Supporting Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1EC20D0C26C5B9FB0032C3EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EC20D0F26C5B9FB0032C3EE /* AVPlayer+Publishers.swift */,
+				1EC20D0D26C5B9FB0032C3EE /* Constants.swift */,
+				1EC20D1326C5B9FB0032C3EE /* Controls */,
+				1EC20D1026C5B9FB0032C3EE /* Extensions */,
+				1EC20D0E26C5B9FB0032C3EE /* MediaDropDelegate.swift */,
+				1EC20D3026C5BA690032C3EE /* VideoFile.swift */,
+				1EC20D1626C5B9FB0032C3EE /* ViewLayout.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EC20D1026C5B9FB0032C3EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1EC20D1226C5B9FB0032C3EE /* Array+Extension.swift */,
+				1EC20D1126C5B9FB0032C3EE /* Preferences+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1EC20D1326C5B9FB0032C3EE /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				1EC20D1426C5B9FB0032C3EE /* FileViewModel.swift */,
+				1EC20D1526C5B9FB0032C3EE /* MasterFileController.swift */,
+				1EC20D3226C5BAB20032C3EE /* Wnd.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		1EC20D2926C5BA150032C3EE /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				1EC20D2A26C5BA150032C3EE /* MasterControlsBar.swift */,
+				1EC20D2B26C5BA150032C3EE /* TV View.swift */,
+				1EC20D2C26C5BA150032C3EE /* InfoPanel.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EC0744F26C5761C0084EFCE /* Buttery TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC0746526C5761D0084EFCE /* Build configuration list for PBXNativeTarget "Buttery TV" */;
+			buildPhases = (
+				1EC0744C26C5761C0084EFCE /* Sources */,
+				1EC0744D26C5761C0084EFCE /* Frameworks */,
+				1EC0744E26C5761C0084EFCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Buttery TV";
+			packageProductDependencies = (
+				1EC20CF326C5B7140032C3EE /* Buttery */,
+				1EC20CF626C5B7460032C3EE /* Preferences */,
+			);
+			productName = "Buttery TV";
+			productReference = 1EC0745026C5761C0084EFCE /* Buttery TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EC0744826C5761C0084EFCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1EC0744F26C5761C0084EFCE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1EC0744B26C5761C0084EFCE /* Build configuration list for PBXProject "Buttery TV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EC0744726C5761C0084EFCE;
+			packageReferences = (
+				1EC20CF226C5B7140032C3EE /* XCRemoteSwiftPackageReference "Buttery" */,
+				1EC20CF526C5B7460032C3EE /* XCRemoteSwiftPackageReference "Preferences" */,
+			);
+			productRefGroup = 1EC0745126C5761C0084EFCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EC0744F26C5761C0084EFCE /* Buttery TV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EC0744E26C5761C0084EFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC0745B26C5761D0084EFCE /* Preview Assets.xcassets in Resources */,
+				1EC0745826C5761D0084EFCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EC0744C26C5761C0084EFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC20CFC26C5B78B0032C3EE /* AVFile+CoreDataProperties.swift in Sources */,
+				1EC20D2D26C5BA150032C3EE /* MasterControlsBar.swift in Sources */,
+				1EC20D2226C5BA070032C3EE /* SharingPreferences.swift in Sources */,
+				1EC20D1D26C5B9FB0032C3EE /* MasterFileController.swift in Sources */,
+				1EC20D0826C5B9E20032C3EE /* EditFilesView.swift in Sources */,
+				1EC20D1A26C5B9FB0032C3EE /* Preferences+Extensions.swift in Sources */,
+				1EC20D2726C5BA0E0032C3EE /* SharingControlsBar.swift in Sources */,
+				1EC20D3326C5BAB20032C3EE /* Wnd.swift in Sources */,
+				1EC20D1B26C5B9FB0032C3EE /* Array+Extension.swift in Sources */,
+				1EC20D0626C5B9E20032C3EE /* EditFileCell.swift in Sources */,
+				1EC20D1C26C5B9FB0032C3EE /* FileViewModel.swift in Sources */,
+				1EC20D2326C5BA070032C3EE /* DataPreferences.swift in Sources */,
+				1EC20D0A26C5B9E20032C3EE /* FileGridCell.swift in Sources */,
+				1EC20D2426C5BA070032C3EE /* LayoutPreferences.swift in Sources */,
+				1EC20D2E26C5BA150032C3EE /* TV View.swift in Sources */,
+				1EC20D1926C5B9FB0032C3EE /* AVPlayer+Publishers.swift in Sources */,
+				1EC20D3126C5BA690032C3EE /* VideoFile.swift in Sources */,
+				1EC20D0526C5B9E20032C3EE /* FileListCell.swift in Sources */,
+				1E7AF06226C6E70900B6EE44 /* Help.xcdatamodeld in Sources */,
+				1EC20D1826C5B9FB0032C3EE /* MediaDropDelegate.swift in Sources */,
+				1EC20CFB26C5B78B0032C3EE /* AVFile+CoreDataClass.swift in Sources */,
+				1EC20D0426C5B9E20032C3EE /* FileCell.swift in Sources */,
+				1EC0745D26C5761D0084EFCE /* Persistence.swift in Sources */,
+				1EC0745626C5761C0084EFCE /* ContentView.swift in Sources */,
+				1EC20D1E26C5B9FB0032C3EE /* ViewLayout.swift in Sources */,
+				1EC20D0926C5B9E20032C3EE /* FileListView.swift in Sources */,
+				1EC0745426C5761C0084EFCE /* Buttery_TVApp.swift in Sources */,
+				1EC20D2826C5BA0E0032C3EE /* ShareView.swift in Sources */,
+				1EC20D1726C5B9FB0032C3EE /* Constants.swift in Sources */,
+				1EC20D2F26C5BA150032C3EE /* InfoPanel.swift in Sources */,
+				1EC20D0726C5B9E20032C3EE /* FileView.swift in Sources */,
+				1EC0746026C5761D0084EFCE /* Buttery_TV.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EC0746326C5761D0084EFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EC0746426C5761D0084EFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1EC0746626C5761D0084EFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Buttery TV/Buttery_TV.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Buttery TV/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6CQVYDYZ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Buttery TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathanholland.Buttery-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1EC0746726C5761D0084EFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Buttery TV/Buttery_TV.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Buttery TV/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6CQVYDYZ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Buttery TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathanholland.Buttery-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EC0744B26C5761C0084EFCE /* Build configuration list for PBXProject "Buttery TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC0746326C5761D0084EFCE /* Debug */,
+				1EC0746426C5761D0084EFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EC0746526C5761D0084EFCE /* Build configuration list for PBXNativeTarget "Buttery TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC0746626C5761D0084EFCE /* Debug */,
+				1EC0746726C5761D0084EFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1EC20CF226C5B7140032C3EE /* XCRemoteSwiftPackageReference "Buttery" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonnyholland/Buttery.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		1EC20CF526C5B7460032C3EE /* XCRemoteSwiftPackageReference "Preferences" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Preferences";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EC20CF326C5B7140032C3EE /* Buttery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EC20CF226C5B7140032C3EE /* XCRemoteSwiftPackageReference "Buttery" */;
+			productName = Buttery;
+		};
+		1EC20CF626C5B7460032C3EE /* Preferences */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EC20CF526C5B7460032C3EE /* XCRemoteSwiftPackageReference "Preferences" */;
+			productName = Preferences;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		1E7AF06026C6E70900B6EE44 /* Help.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E7AF06126C6E70900B6EE44 /* Help.xcdatamodel */,
+			);
+			currentVersion = 1E7AF06126C6E70900B6EE44 /* Help.xcdatamodel */;
+			path = Help.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		1EC0745E26C5761D0084EFCE /* Buttery_TV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EC0745F26C5761D0084EFCE /* Buttery_TV.xcdatamodel */,
+			);
+			currentVersion = 1EC0745F26C5761D0084EFCE /* Buttery_TV.xcdatamodel */;
+			path = Buttery_TV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1EC0744826C5761C0084EFCE /* Project object */;
+}
